@@ -13,7 +13,7 @@
 
 ### About myself:
 
-Worked for six years in a cafe at the bar. I realized that I needed to change my life and immerse myself in something new and interesting that I had never encountered before.
+I worked for six years in a cafe as a barista. I realized that I needed to change my life and immerse myself in something new and interesting that I had never encountered before.
 
 Six months ago, I started studying layout on my own, then, after going through several stages of an interview, I got into Mate Academy courses, which I could not finish due to lack of time.
 
