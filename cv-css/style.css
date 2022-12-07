@@ -51,6 +51,7 @@ li {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
   height: 50px;
   margin: 0 auto;
 }
@@ -67,12 +68,12 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
-  margin-left: 10%;
+  margin: 0 auto;
+  gap: 5%;
 }
 
 .menu-item {
-  margin-right: 180px;
+ 
   color:#8bb6f1;
   letter-spacing: 0.07em;
   transition: all .3s;
