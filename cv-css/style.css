@@ -19,7 +19,6 @@ body {
   font-family: Roboto, sans-serif;
   background-color: #28303e;
   width: 100%;
- 
 }
 
 .body-wrapper {
@@ -28,6 +27,10 @@ body {
   overflow: hidden;
   flex-direction: column;
   position: relative;
+}
+
+li {
+  list-style: none;
 }
 /* #endregion */ 
 
