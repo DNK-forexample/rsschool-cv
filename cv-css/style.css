@@ -28,6 +28,10 @@ body {
   flex-direction: column;
   position: relative;
 }
+
+li {
+  list-style: none;
+}
 /* #endregion */ 
 
 /* #region header */
@@ -47,6 +51,7 @@ body {
   align-items: center;
   text-align: center;
   height: 50px;
+  margin: 0 auto;
 }
 
 .header .list-items {
@@ -62,7 +67,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 .menu-item {
@@ -99,12 +104,14 @@ body {
   display: flex;
   padding-top: 60px;
   margin-bottom: 60px;
+  
 }
 
 .main-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .about {
@@ -129,10 +136,11 @@ body {
   border: 12px solid #8bb6f1;
   border-radius: 5px;
   transition: all .3s;
+  height: 85%;
 }
 
 .main-photo-img {
-  width: 330px;
+  width: 85%;
 }
 
 .main-text {
