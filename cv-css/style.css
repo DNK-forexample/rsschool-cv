@@ -79,6 +79,15 @@ li {
   transition: all .3s;
 }
 
+.contacts {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 50px;
+  margin: 0 auto;
+}
+
 .contacts .list-items {
   display: flex;
   justify-content: start;
