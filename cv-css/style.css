@@ -38,7 +38,17 @@ li {
 
 .header {
   border-bottom: 1px solid #244f8f;
-  padding: 25px 0;
+ height: fit-content;
+padding: 20px 0;
+ 
+}
+
+.header-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .container {
@@ -47,14 +57,7 @@ li {
   padding: 0 15px;
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  height: 50px;
-  margin: 0 auto;
-}
+
 
 .header .list-items {
   padding-top: 50px;
@@ -62,6 +65,10 @@ li {
 
 .header .list-item {
   border: none;
+}
+
+.header-menu {
+
 }
 
 .menu {
@@ -79,12 +86,12 @@ li {
   transition: all .3s;
 }
 
-.contacts {
+.header-contacts {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  height: 50px;
+  gap: 15px;
   margin: 0 auto;
 }
 
@@ -94,6 +101,19 @@ li {
   margin-right: 30px;
   margin: 0 auto;
  
+}
+
+.header-contacts {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  transition: all .3s;
+}
+
+.header-contacts-item {
+  
 }
 
 .contacts .list-item {
